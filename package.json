@@ -1,7 +1,7 @@
 {
-  "name": "get-started-node",
+  "name": "on-school",
   "main": "server.js",
-  "description": "An introduction to developing Node.js apps on the IBM Cloud platform",
+  "description": "App for Online Education on the IBM Cloud platform",
   "version": "0.1.1",
   "private": false,
   "engines": {
@@ -19,8 +19,7 @@
     "body-parser": "^1.17.x",
     "cfenv": "^1.0.x",
     "dotenv": "^4.0.0",
-    "express": "^4.15.x",
-    "mongodb": "^3.0.10"
+    "express": "^4.15.x"
   },
   "author": "IBM Corp",
   "license": "Apache-2.0"

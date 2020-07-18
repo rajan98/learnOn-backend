@@ -2,21 +2,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: get-started-node
+  name: on-school
   labels:
-    app: get-started-node
+    app: on-school
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: get-started-node
+      app: on-school
   template:
     metadata:
       labels:
-        app: get-started-node
+        app: on-school
     spec:
       containers:
-      - name: get-started-node
+      - name: on-school
         image: <REGISTRY>/<NAMESPACE>/myapp:v1.0.0
         ports:
         - containerPort: 8080
